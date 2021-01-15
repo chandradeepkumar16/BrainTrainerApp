@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <VideoView
+        android:id="@+id/videoViewwelcome"
+        android:layout_width="492dp"
+        android:layout_height="427dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPractice"
+        android:layout_width="223dp"
+        android:layout_height="56dp"
+        android:background="@drawable/menucolor"
+        android:fontFamily="@font/alegreya_sc_italic"
+        android:onClick="practice"
+
+        android:text="Practice"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632" />
+
+    <Button
+        android:id="@+id/buttonTest"
+        android:layout_width="220dp"
+        android:layout_height="58dp"
+
+        android:background="@drawable/menucolor"
+        android:fontFamily="@font/alegreya_sc_italic"
+        android:onClick="test"
+        android:text="Test"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/videoViewwelcome"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="224dp"
+        android:layout_height="66dp"
+
+        android:background="@drawable/menucolor"
+
+        android:fontFamily="@font/alegreya_sc_italic"
+        android:onClick="about"
+        android:text="About"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/videoViewwelcome"
+        app:layout_constraintVertical_bias="0.879"
+        tools:text="About" />
+</androidx.constraintlayout.widget.ConstraintLayout>
