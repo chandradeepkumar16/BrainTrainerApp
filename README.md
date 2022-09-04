@@ -3,7 +3,7 @@ A mathematical questioning game app , where user can answer ample number of basi
 such as Addition , Multiplication , Subtraction and Division .
 
 
-https://user-images.githubusercontent.com/62211734/188309680-17fdfeb2-b237-4c1f-b39d-795648a1cb31.mp4
+https://user-images.githubusercontent.com/62211734/188309746-b9b1626e-e0dd-4669-b31c-91caade44754.mp4
 
 
 
